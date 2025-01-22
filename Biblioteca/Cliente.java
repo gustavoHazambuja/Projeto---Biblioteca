@@ -5,6 +5,10 @@ public class Cliente{
     private String email;
     private String telefone;
 
+
+    public Cliente(){
+        
+    }
     public Cliente(String nome, String cpf, String email, String tel){
         this.nome = nome;
         this.cpf = cpf;

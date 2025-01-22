@@ -8,6 +8,10 @@ public class Emprestimo{
     private LocalDate prazoDevolucao;
     private boolean devolvido;
 
+
+    public Emprestimo(){
+        
+    }
     public Emprestimo(Cliente c, Livro l, LocalDate dataEmprestimo, LocalDate prazo){
         this.clientes = c;
         this.livros = l;
